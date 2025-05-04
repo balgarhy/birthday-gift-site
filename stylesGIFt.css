@@ -1,0 +1,92 @@
+body{
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    background: linear-gradient(#a2d2ff, #EFB0c9);
+    color: white;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pfp{
+    width: 200px;
+    display: block;
+    border-radius: 50%;
+    border: 6px solid #EFB0c9;
+    object-position: bottom center;
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
+h1, h2, h3, h4, p{
+    text-shadow: 0px 0px 1px black;
+}
+
+#bday-age{
+    background-color: #EFB0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+}
+
+#bday-date{
+    background-color: #EFB0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+
+.gift1{
+    margin-top: 50px;
+}
+
+.giftwrap{
+    border: 5px solid white ;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    background-image: url(Assets/gift-cover.png);
+    background-size: cover;
+    margin: 0px auto;
+}
+
+#gift1:hover{
+    background-image: url(https://media.tenor.com/A2pNk0SKAyIAAAAM/clap-clapping.gif);
+}
+
+#gift2:hover{
+    background-image: url(https://media3.giphy.com/media/10UUe8ZsLnaqwo/giphy.gif?cid=6c09b952tmj81yo6io5dkgrqr078jyov20k6twfhdk9xsa9f&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+}
+
+#gift3:hover{
+    background-image: url(https://media.tenor.com/SJLZMwm6TnIAAAAM/george-pickens.gif);
+}
+
+#gift4:hover{
+    background-image: url(https://media.tenor.com/45mzksBJ2xYAAAAM/badass.gif);
+}
+
+#giftwrapfinale{
+    background-image: url(Assets/gift-cover.png);
+    background-size: cover;
+    height: 200px;
+    width: 400px;
+    border: 5px solid white ;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+
+#giftwrapfinale:hover{
+    background-image: url(https://media2.giphy.com/media/fqVUYfHCELMgMpA4fo/200w.gif?cid=6c09b952inke1r8ysine8awvj7oznozd0u6nry0u6uz4lano&ep=v1_gifs_search&rid=200w.gif&ct=g);
+}
+
+#spacing{
+    margin-top: 50px;
+}
+
+#link{
+    color: #FF005C;
+}
