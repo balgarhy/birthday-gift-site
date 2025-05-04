@@ -48,7 +48,7 @@ h1, h2, h3, h4, p{
     border-radius: 10px;
     height: 400px;
     width: 400px;
-    background-image: url(Assets/gift-cover.png);
+    background-image: url(gift-cover.png);
     background-size: cover;
     margin: 0px auto;
 }
@@ -70,7 +70,7 @@ h1, h2, h3, h4, p{
 }
 
 #giftwrapfinale{
-    background-image: url(Assets/gift-cover.png);
+    background-image: url(gift-cover.png);
     background-size: cover;
     height: 200px;
     width: 400px;
